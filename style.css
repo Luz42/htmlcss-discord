@@ -10,6 +10,12 @@ body {
     font-family: sans-serif;
 }
 
+h1,
+h2 {
+    font-size: 3vw;
+}
+
+/* BUTTONS property */
 button {
     padding: 10px;
     border-radius: 25px;
@@ -17,10 +23,21 @@ button {
     border: none;
 }
 
-h1,
-h2 {
-    font-size: 3vw;
+
+article button,
+div>button {
+    margin: 1%;
+    padding: 10px 15px;
 }
+
+
+article button:nth-of-type(2),
+div>button {
+    background-color: #23272a;
+    color: #fff;
+}
+
+/* end BUTTONS */
 
 /* button:hover {
     background-color: aqua;
@@ -88,17 +105,6 @@ header p {
     padding: 5% 0;
 }
 
-article button {
-    margin: 1%;
-    padding: 10px 15px;
-}
-
-
-article button:nth-of-type(2) {
-    background-color: #23272a;
-    color: #fff;
-}
-
 /* end INTRODUCTION */
 
 /* CONTENT */
@@ -114,7 +120,7 @@ main section>article {
 }
 
 main section>article {
-    background-color: bisque;
+    /* background-color: bisque; */
     padding: 10%;
 }
 
@@ -122,18 +128,19 @@ main>section {
     display: flex;
     justify-content: center;
     /* flex-wrap: wrap; */
-    background-color: #00ff1159;
+    /* background-color: #00ff1159; */
 }
 
 main section:nth-of-type(even) {
-    background-color: rgb(255, 255, 255);
+    background-color: #f6f6f6;
 }
 
-main section:nth-last-of-type(2) {
+main section:nth-of-type(2) {
     flex-direction: row-reverse;
 }
 
-main figure {
+main figure,
+div>h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -158,6 +165,12 @@ main figure {
 #quality {
     background-image: url(img/item4-big.svg);
     padding: 30% 50%;
+}
+
+div>h3 {
+    display: block;
+    background-image: url(img/stars.svg);
+    padding: 2% 0;
 }
 
 /* end CONTENT */
