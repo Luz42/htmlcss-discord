@@ -75,6 +75,10 @@ div>button {
     flex-wrap: wrap;
 }
 
+/* .align-start {
+    align-content: flex-start;
+} */
+
 /* ------Content------ */
 /* INTRODUCTION */
 header {
@@ -85,18 +89,20 @@ header {
 
 }
 
-nav {
+header nav {
     padding: 10px;
     justify-content: space-between;
     font-weight: bold;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     align-self: center;
+    color: #fff;
 }
 
-header a:visited {
+header a:visited,
+footer a:visited {
     color: #fff;
 }
 
@@ -176,13 +182,30 @@ div>h3 {
 /* end CONTENT */
 
 /* INFO */
-footer div {
+footer>div {
     padding: 10px;
     justify-content: space-between;
 }
 
 footer {
     background-color: brown;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.language {
+    padding: 15px 0;
+}
+
+#bigger {
+    font-size: 2rem;
+}
+
+#flag {
+    height: 20px;
 }
 
 /* end INFO */
