@@ -41,13 +41,14 @@ a {
 /* ------Content------ */
 /* INTRODUCTION */
 header {
-    background: rgb(238, 143, 255);
+    background-repeat: no-repeat;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
 }
 
 nav {
     padding: 10px;
     justify-content: space-around;
-    background-color: brown;
 }
 
 /* end INTRODUCTION */
