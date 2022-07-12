@@ -37,11 +37,15 @@ div>button {
     color: #fff;
 }
 
+.lightblue {
+    background-color: #8ea1e1;
+}
+
 /* end BUTTONS */
 
-/* button:hover {
-    background-color: aqua;
-} */
+/*
+fare in modo che cambi la freccia quando si passa sul bottone
+*/
 
 /* ------Utilities------ */
 .container {
@@ -75,8 +79,8 @@ div>button {
     flex-wrap: wrap;
 }
 
-/* .align-start {
-    align-content: flex-start;
+/* .space-between {
+    justify-content: space-between;
 } */
 
 /* ------Content------ */
@@ -179,6 +183,11 @@ div>h3 {
     padding: 2% 0;
 }
 
+.img {
+    background-image: url(img/wave.svg);
+    padding: 30% 50%;
+}
+
 /* end CONTENT */
 
 /* INFO */
@@ -188,11 +197,19 @@ footer>div {
 }
 
 footer {
-    background-color: brown;
+    background-color: #23272a;
+    padding: 50px;
 }
 
 footer a {
     text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer select {
+    border: none;
+    background-color: #23272a;
     color: #fff;
 }
 
@@ -207,5 +224,12 @@ footer a {
 #flag {
     height: 20px;
 }
+
+footer h4 {
+    color: #7289da;
+}
+
+
+
 
 /* end INFO */
