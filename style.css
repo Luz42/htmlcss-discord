@@ -17,6 +17,11 @@ button {
     border: none;
 }
 
+h1,
+h2 {
+    font-size: 3vw;
+}
+
 /* button:hover {
     background-color: aqua;
 } */
@@ -78,10 +83,6 @@ header a:visited {
     color: #fff;
 }
 
-h1 {
-    font-size: 3vw;
-}
-
 header p {
     display: inline-block;
     padding: 5% 0;
@@ -101,6 +102,11 @@ article button:nth-of-type(2) {
 /* end INTRODUCTION */
 
 /* CONTENT */
+article p {
+    display: inline-block;
+    padding: 5% 0;
+}
+
 main figure {
     background-position: center;
     background-repeat: no-repeat;
@@ -115,7 +121,7 @@ main section>article {
 
 main section>article {
     background-color: bisque;
-    padding: 25px;
+    padding: 10%;
 }
 
 main>section {
