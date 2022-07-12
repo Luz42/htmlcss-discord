@@ -1,0 +1,95 @@
+/* ------Generics------ */
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    color: white;
+}
+
+/* ------Utilities------ */
+.col-gap {
+    column-gap: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.centered {
+    text-align: center;
+
+}
+
+.padding {
+    padding: 10% 25%;
+
+}
+
+.col {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* ------Content------ */
+/* INTRODUCTION */
+header {
+    background: rgb(238, 143, 255);
+}
+
+nav {
+    padding: 10px;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+/* end INTRODUCTION */
+
+/* CONTENT */
+figure,
+section>article {
+    border-style: dashed;
+    background-color: indianred;
+    flex-basis: 300px;
+    height: 300px;
+}
+
+section>article {
+    background-color: bisque;
+}
+
+main>section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #00ff1159;
+}
+
+main section:nth-of-type(even) {
+    background-color: rgb(226, 186, 43);
+}
+
+section:nth-of-type(2) figure {
+    order: 1;
+}
+
+/* end CONTENT */
+
+/* INFO */
+footer div {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: brown;
+}
+
+/* end INFO */
