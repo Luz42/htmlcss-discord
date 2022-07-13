@@ -48,10 +48,10 @@ fare in modo che cambi la freccia quando si passa sul bottone
 */
 
 /* ------Utilities------ */
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 .col-gap {
     column-gap: 40px;
