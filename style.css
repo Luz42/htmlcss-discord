@@ -141,7 +141,8 @@ main>section {
     /* background-color: #00ff1159; */
 }
 
-main section:nth-of-type(even) {
+main section:nth-of-type(even),
+#wave-bg {
     background-color: #f6f6f6;
 }
 
@@ -186,6 +187,10 @@ div>h3 {
 .img {
     background-image: url(img/wave.svg);
     padding: 30% 50%;
+}
+
+.wave-1hkxOo{
+    display: block;
 }
 
 /* end CONTENT */
