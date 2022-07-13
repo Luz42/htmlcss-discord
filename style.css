@@ -226,7 +226,7 @@ footer select {
     font-size: 2rem;
 }
 
-#flag {
+#flag, .icon {
     height: 20px;
 }
 
@@ -234,7 +234,9 @@ footer h4 {
     color: #7289da;
 }
 
-
-
+.icon{
+    margin: 3%;
+    color: #fff;
+}
 
 /* end INFO */
